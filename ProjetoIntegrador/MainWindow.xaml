@@ -1,0 +1,58 @@
+﻿<Window x:Class="ProjetoIntegrador.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ProjetoIntegrador"
+        mc:Ignorable="d"
+        Title="Plataforma de Cadastro" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        
+
+
+        <StackPanel Grid.Row="0" Background="#008B8B">
+            <Image  HorizontalAlignment="Center" 
+                    Width="250"
+                    Height="250"
+                    Stretch="Fill"
+                    Margin="10"
+                    Source="C:\Users\Desenvolvimento\Desktop\Faculdade_Cesgranrio\periodo_4\PI_4\ProjetoIntegrador\ProjetoIntegrador\Assets\img\logo.png"/>
+        </StackPanel>
+
+        <StackPanel Grid.Column="0" Grid.Row="1" VerticalAlignment="Center"  >
+
+            <Border  BorderBrush="#fff" BorderThickness="0,1,0,1">
+                <Button Content="Cadastrar Cliente" FontSize="17"  Height="45" Background="#008B8B" Foreground="White" BorderThickness="0"  Click="CadastrarCliente"/>
+            </Border>
+
+            <Border  BorderBrush="#fff" BorderThickness="0,0,0,1">
+                <Button Content="Cadastrar Jogo" VerticalAlignment="Stretch" FontSize="17"  Height="45" Background="#008B8B" Foreground="White" BorderThickness="0"  Click="CadastrarJogo"/>
+            </Border>
+
+            <Border  BorderBrush="#fff" BorderThickness="0,0,0,1">
+                <Button Content="Verificar estoque"  FontSize="17"  Height="45" Background="#008B8B" Foreground="White" BorderThickness="0"  Click="Estoque"/>
+            </Border>
+           
+        </StackPanel>
+
+
+        <StackPanel Grid.Column="2" Grid.Row="3" Background="#008B8B">
+
+            
+
+
+        </StackPanel>
+
+
+
+        <GridSplitter Grid.Column="1" Width="5" HorizontalAlignment="Stretch"/>
+       
+            <Grid Grid.Column="2" Name="PainelForms" Margin="0 10 5 10"/>
+    </Grid>
+</Window>
