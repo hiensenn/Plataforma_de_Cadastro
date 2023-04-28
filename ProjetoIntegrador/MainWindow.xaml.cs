@@ -42,6 +42,18 @@ namespace ProjetoIntegrador
             MostrarJanela<Estoque>();
         }
 
+        private void Editar(object sender, RoutedEventArgs e)
+        {
+            MostrarJanela<Editar>();
+        }
+
+        public void Button_Click(object sender, RoutedEventArgs e)
+        {
+            MostrarJanela<EditarCliente>();
+        }
+
+
+
         private void MostrarJanela<T>() where T : UserControl, new()
         {
             var filhos = PainelForms.Children.OfType<T>();

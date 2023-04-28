@@ -20,3 +20,7 @@ C:\Users\Desenvolvimento\Desktop\Faculdade_Cesgranrio\periodo_4\PI_4\ProjetoInte
 C:\Users\Desenvolvimento\Desktop\Faculdade_Cesgranrio\periodo_4\PI_4\ProjetoIntegrador\ProjetoIntegrador\obj\Debug\ProjetoIntegrador.csproj.CoreCompileInputs.cache
 C:\Users\Desenvolvimento\Desktop\Faculdade_Cesgranrio\periodo_4\PI_4\ProjetoIntegrador\ProjetoIntegrador\obj\Debug\ProjetoIntegrador.exe
 C:\Users\Desenvolvimento\Desktop\Faculdade_Cesgranrio\periodo_4\PI_4\ProjetoIntegrador\ProjetoIntegrador\obj\Debug\ProjetoIntegrador.pdb
+C:\Users\Desenvolvimento\Desktop\Faculdade_Cesgranrio\periodo_4\PI_4\ProjetoIntegrador\ProjetoIntegrador\obj\Debug\Editar.g.cs
+C:\Users\Desenvolvimento\Desktop\Faculdade_Cesgranrio\periodo_4\PI_4\ProjetoIntegrador\ProjetoIntegrador\obj\Debug\Editar.baml
+C:\Users\Desenvolvimento\Desktop\Faculdade_Cesgranrio\periodo_4\PI_4\ProjetoIntegrador\ProjetoIntegrador\obj\Debug\EditarCliente.g.cs
+C:\Users\Desenvolvimento\Desktop\Faculdade_Cesgranrio\periodo_4\PI_4\ProjetoIntegrador\ProjetoIntegrador\obj\Debug\EditarCliente.baml

@@ -27,18 +27,38 @@
 
         <StackPanel Grid.Column="0" Grid.Row="1" VerticalAlignment="Center"  >
 
-            <Border  BorderBrush="#fff" BorderThickness="0,1,0,1">
-                <Button Content="Cadastrar Cliente" FontSize="17"  Height="45" Background="#008B8B" Foreground="White" BorderThickness="0"  Click="CadastrarCliente"/>
-            </Border>
+                <Button Content="Cadastrar Cliente" FontSize="17"  Width="200" Height="50" Margin="10" HorizontalAlignment="Center" VerticalAlignment="Top" Background="#008B8B" Foreground="#fff"
+                 FontWeight="Bold"  Padding="10" BorderBrush="#fff" BorderThickness="2" Click="CadastrarCliente"/>
 
-            <Border  BorderBrush="#fff" BorderThickness="0,0,0,1">
-                <Button Content="Cadastrar Jogo" VerticalAlignment="Stretch" FontSize="17"  Height="45" Background="#008B8B" Foreground="White" BorderThickness="0"  Click="CadastrarJogo"/>
-            </Border>
 
-            <Border  BorderBrush="#fff" BorderThickness="0,0,0,1">
-                <Button Content="Verificar estoque"  FontSize="17"  Height="45" Background="#008B8B" Foreground="White" BorderThickness="0"  Click="Estoque"/>
-            </Border>
+
+            <Button Content="Cadastrar Jogo" HorizontalAlignment="Center" Width="200" Height="50" Margin="10" Background="#008B8B" Foreground="#fff"
+                FontSize="16" FontWeight="Bold"  Padding="10" BorderBrush="#fff" BorderThickness="2"  Click="CadastrarJogo"/>
+
+
+
+            <Button Content="Verificar estoque"  Width="200" Height="50"  HorizontalAlignment="Center" Margin="10" VerticalAlignment="Top" Background="#008B8B" Foreground="#fff"
+                FontSize="16" FontWeight="Bold"  Padding="10" BorderBrush="#fff" BorderThickness="2"  Click="Estoque"/>
+
+
+
+
+            <Button Content="Editar Cadastro"  Width="200" Height="50"  HorizontalAlignment="Center" Margin="10" VerticalAlignment="Top" Background="#008B8B" Foreground="#fff"
+                FontSize="16" FontWeight="Bold"  Padding="10" BorderBrush="#fff" BorderThickness="2"  Click="Editar"/>
            
+
+            <StackPanel Grid.Row="2" HorizontalAlignment="Center" Margin="0,0,0,10">
+
+                <Button Grid.Row="5"
+                Width="200" Height="50"  HorizontalAlignment="Center" VerticalAlignment="Top" Margin="10" Background="#008B8B" Foreground="#fff"
+                FontSize="16" FontWeight="Bold" Content="Editar Cliente" Padding="10" BorderBrush="#fff" BorderThickness="2" Click="Button_Click" />
+
+                <Button Grid.Row="5"
+                Width="200" Height="50" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="10" Background="#008B8B" Foreground="#fff"
+                FontSize="16" FontWeight="Bold" Content="Editar Jogo " Padding="10" BorderBrush="#fff" BorderThickness="2"  />
+
+            </StackPanel>
+
         </StackPanel>
 
 
