@@ -16,28 +16,30 @@
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
 
-        <TextBlock Grid.Row="0" FontSize="24" FontWeight="Bold" HorizontalAlignment="Center" Margin="0,0,0,20" Foreground="#fff">Estoque</TextBlock>
+        <TextBlock Grid.Row="0" FontSize="24" FontWeight="Regular" HorizontalAlignment="Center" Margin="0,0,0,20" Foreground="#fff">Estoque</TextBlock>
 
         <StackPanel Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,0,0,10">
-            <TextBlock Width="120" FontSize="16" VerticalAlignment="Center" Foreground="#fff">Nome do Jogo:</TextBlock>
+            <TextBlock Width="120" FontSize="16" VerticalAlignment="Center" FontWeight="ExtraLight" Foreground="#fff">Nome do Jogo:</TextBlock>
             <TextBox Width="300" HorizontalAlignment="Right" FontSize="16" VerticalAlignment="Bottom" BorderThickness="0,0,0,2"/>
 
         </StackPanel>
         <StackPanel Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,0,0,10">
-            <TextBlock Width="120" FontSize="16" VerticalAlignment="Center" Foreground="#fff">Código:</TextBlock>
+            <TextBlock Width="120" FontSize="16" VerticalAlignment="Center" FontWeight="ExtraLight" Foreground="#fff">Código:</TextBlock>
             <TextBox Width="300" FontSize="16" VerticalAlignment="Center"/>
 
         </StackPanel>
 
         <StackPanel Grid.Row="3" Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,0,0,10">
-            <TextBlock Width="120" FontSize="16" VerticalAlignment="Center" Foreground="#fff">Tipo de Jogo:</TextBlock>
-            <ComboBox Width="300" FontSize="16" VerticalAlignment="Center">
-                <ComboBoxItem Content="Ação"/>
-                <ComboBoxItem Content="Aventura"/>
-                <ComboBoxItem Content="Estratégia"/>
-                <ComboBoxItem Content="Esporte"/>
-                <ComboBoxItem Content="Simulação"/>
-                <ComboBoxItem Content="RPG"/>
+            <TextBlock Width="120" FontSize="16" VerticalAlignment="Center" FontWeight="ExtraLight" Foreground="#fff">Tipo de Jogo:</TextBlock>
+            <ComboBox Width="300" FontSize="16" VerticalAlignment="Center" Background="#008B8B">
+                <ComboBoxItem Content="Ação" Padding="10" FontSize="13" Height="45" Background="#008B8B" Foreground="#fff" BorderThickness="1"/>
+                <ComboBoxItem Content="Aventura" Padding="10" FontSize="13" Background="#008B8B" Foreground="#fff" BorderThickness="1"/>
+                <ComboBoxItem Content="Estratégia" Padding="10" FontSize="13" Background="#008B8B" Foreground="#fff" BorderThickness="1"/>
+                <ComboBoxItem Content="Esporte" Padding="10" FontSize="13" Background="#008B8B" Foreground="#fff" BorderThickness="1"/>
+                <ComboBoxItem Content="Simulação" Padding="10" FontSize="13" Background="#008B8B" Foreground="#fff" BorderThickness="1"/>
+                <ComboBoxItem Content="RPG" Padding="10" FontSize="13" Background="#008B8B" Foreground="#fff" BorderThickness="1"/>
+                <ComboBoxItem Content="Puzzle" Padding="10" FontSize="13" Background="#008B8B" Foreground="#fff" BorderThickness="1"/>
+                <ComboBoxItem Content="Outro..." Padding="10" FontSize="13" Background="#008B8B" Foreground="#fff" BorderThickness="1"/>
             </ComboBox>
         </StackPanel>
 

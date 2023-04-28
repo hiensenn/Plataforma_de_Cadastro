@@ -63,11 +63,11 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Editar.xaml">
+    <Page Include="EditarCliente.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="EditarCliente.xaml">
+    <Page Include="EditarJogo.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -89,11 +89,11 @@
     <Compile Include="CadastraJogo.xaml.cs">
       <DependentUpon>CadastraJogo.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Editar.xaml.cs">
-      <DependentUpon>Editar.xaml</DependentUpon>
-    </Compile>
     <Compile Include="EditarCliente.xaml.cs">
       <DependentUpon>EditarCliente.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="EditarJogo.xaml.cs">
+      <DependentUpon>EditarJogo.xaml</DependentUpon>
     </Compile>
     <Compile Include="Estoque.xaml.cs">
       <DependentUpon>Estoque.xaml</DependentUpon>

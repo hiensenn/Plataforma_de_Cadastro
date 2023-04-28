@@ -22,21 +22,21 @@
             <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
 
-        <TextBlock Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="3" Text="Cadastro de Clientes" FontSize="24" Foreground="#fff" FontWeight="Bold" Margin="0,0,0,20" HorizontalAlignment="Center"/>
+        <TextBlock Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="3" Text="Cadastro de Clientes" FontSize="24" Foreground="#fff" FontWeight="ExtraLight" Margin="0,0,0,20" HorizontalAlignment="Center"/>
 
-        <TextBlock Grid.Row="1" Grid.Column="0" Text="NOME " HorizontalAlignment="Right" FontSize="15"  Margin="0,0,15,10" Foreground="#fff"/>
-        <TextBox Grid.Row="1" Grid.Column="1" Width="250" FontSize="16" VerticalAlignment="Center" Background="#efefef" HorizontalAlignment="Left" BorderBrush="#007ACC" BorderThickness="0,0,0,2"/>
+        <TextBlock Grid.Row="1" Grid.Column="0" Text="NOME " FontWeight="Regular"  HorizontalAlignment="Right" FontSize="15"  Margin="0,0,15,10" Foreground="#fff"/>
+        <TextBox Grid.Row="1" Grid.Column="1" Width="250"  Background="#fff" FontSize="16" VerticalAlignment="Center"  HorizontalAlignment="Left" Foreground="#fff" />
 
-        <TextBlock Grid.Row="2" Grid.Column="0" Text="E-MAIL " HorizontalAlignment="Right" FontSize="15" Margin="0,0,15,10" Foreground="#fff"/>
-        <TextBox Grid.Row="2" Grid.Column="1" Width="250" FontSize="16" VerticalAlignment="Center" Background="#efefef" HorizontalAlignment="Left" BorderBrush="#007ACC" BorderThickness="0,0,0,2"/>
+        <TextBlock Grid.Row="2" Grid.Column="0" Text="E-MAIL " FontWeight="Regular" HorizontalAlignment="Right" FontSize="15" Margin="0,0,15,10" Foreground="#fff"/>
+        <TextBox Grid.Row="2" Grid.Column="1" Width="250" FontSize="16" VerticalAlignment="Center" Background="#fff" HorizontalAlignment="Left" />
 
-        <TextBlock Grid.Row="3" Grid.Column="0" Text="CPF " HorizontalAlignment="Right" FontSize="15"  Margin="0,0,15,10" Foreground="#fff"/>
-        <TextBox Grid.Row="3" Grid.Column="1" Width="250" FontSize="16" VerticalAlignment="Center" Background="#efefef" HorizontalAlignment="Left" BorderBrush="#007ACC" BorderThickness="0,0,0,2"/>
+        <TextBlock Grid.Row="3" Grid.Column="0" Text="CPF " FontWeight="Regular" HorizontalAlignment="Right" FontSize="15"  Margin="0,0,15,10" Foreground="#fff"/>
+        <TextBox Grid.Row="3" Grid.Column="1" Width="250" FontSize="16" VerticalAlignment="Center" Background="#fff" HorizontalAlignment="Left" />
 
 
 
         <Button Grid.Row="5" Grid.Column="1" Width="200" Height="50" Margin="0,30,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Background="#008B8B" Foreground="#fff"
-                FontSize="16" FontWeight="Bold" Content="Cadastrar Cliente" Padding="10" BorderBrush="#fff" BorderThickness="2" />
+                FontSize="16" FontWeight="Regular" Content="Cadastrar Cliente" Padding="10" BorderBrush="#fff" BorderThickness="1" />
     </Grid>
     
 </UserControl>

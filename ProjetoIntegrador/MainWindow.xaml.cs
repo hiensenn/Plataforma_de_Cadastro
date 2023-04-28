@@ -42,14 +42,14 @@ namespace ProjetoIntegrador
             MostrarJanela<Estoque>();
         }
 
-        private void Editar(object sender, RoutedEventArgs e)
-        {
-            MostrarJanela<Editar>();
-        }
-
-        public void Button_Click(object sender, RoutedEventArgs e)
+        private void EditarCliente(object sender, RoutedEventArgs e)
         {
             MostrarJanela<EditarCliente>();
+        }
+
+        private void EditarJogo(object sender, RoutedEventArgs e)
+        {
+            MostrarJanela<EditarJogo>();
         }
 
 

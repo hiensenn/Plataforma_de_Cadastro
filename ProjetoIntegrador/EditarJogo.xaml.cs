@@ -16,22 +16,17 @@ using System.Windows.Shapes;
 namespace ProjetoIntegrador
 {
     /// <summary>
-    /// Interação lógica para Editar.xam
+    /// Interação lógica para EditarJogo.xam
     /// </summary>
-    public partial class Editar : UserControl
+    public partial class EditarJogo : UserControl
     {
-        public Editar()
+        public EditarJogo()
         {
             InitializeComponent();
         }
 
         private void OkClick(object sender, RoutedEventArgs e)
         {
-        }
-
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-
         }
     }
 }
