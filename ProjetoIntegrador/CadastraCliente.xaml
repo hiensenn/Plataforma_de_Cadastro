@@ -14,6 +14,10 @@
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+           
         </Grid.RowDefinitions>
 
         <Grid.ColumnDefinitions>
@@ -22,21 +26,28 @@
             <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
 
-        <TextBlock Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="3" Text="Cadastro de Clientes" FontSize="24" Foreground="#fff" FontWeight="ExtraLight" Margin="0,0,0,20" HorizontalAlignment="Center"/>
-
-        <TextBlock Grid.Row="1" Grid.Column="0" Text="NOME " FontWeight="Regular"  HorizontalAlignment="Right" FontSize="15"  Margin="0,0,15,10" Foreground="#fff"/>
+        <TextBlock Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="3" Text="REGISTRO DE VENDA" FontSize="24" Foreground="#fff" FontWeight="ExtraLight" Margin="0,0,0,20" HorizontalAlignment="Center"/>
+        <TextBlock Grid.Row="1" Grid.Column="0" Text="ID JOGO" FontWeight="Regular"  HorizontalAlignment="Right" FontSize="15"  Margin="0,0,15,10" Foreground="#fff"/>
         <TextBox Grid.Row="1" Grid.Column="1" Width="250"  Background="#fff" FontSize="16" VerticalAlignment="Center"  HorizontalAlignment="Left" Foreground="#fff" />
 
-        <TextBlock Grid.Row="2" Grid.Column="0" Text="E-MAIL " FontWeight="Regular" HorizontalAlignment="Right" FontSize="15" Margin="0,0,15,10" Foreground="#fff"/>
-        <TextBox Grid.Row="2" Grid.Column="1" Width="250" FontSize="16" VerticalAlignment="Center" Background="#fff" HorizontalAlignment="Left" />
 
-        <TextBlock Grid.Row="3" Grid.Column="0" Text="CPF " FontWeight="Regular" HorizontalAlignment="Right" FontSize="15"  Margin="0,0,15,10" Foreground="#fff"/>
+        <TextBlock Grid.Row="2" Grid.Column="0" Text="NOME CLIENTE" FontWeight="Regular"  HorizontalAlignment="Right" FontSize="15"  Margin="0,0,15,10" Foreground="#fff"/>
+        <TextBox Grid.Row="2" Grid.Column="1" Width="250"  Background="#fff" FontSize="16" VerticalAlignment="Center"  HorizontalAlignment="Left" Foreground="#fff" />
+
+        <TextBlock Grid.Row="3" Grid.Column="0" Text="E-MAIL " FontWeight="Regular" HorizontalAlignment="Right" FontSize="15" Margin="0,0,15,10" Foreground="#fff"/>
         <TextBox Grid.Row="3" Grid.Column="1" Width="250" FontSize="16" VerticalAlignment="Center" Background="#fff" HorizontalAlignment="Left" />
 
+        <TextBlock Grid.Row="4" Grid.Column="0" Text="CPF " FontWeight="Regular" HorizontalAlignment="Right" FontSize="15"  Margin="0,0,15,10" Foreground="#fff"/>
+        <TextBox Grid.Row="4" Grid.Column="1" Width="250" FontSize="16" VerticalAlignment="Center" Background="#fff" HorizontalAlignment="Left" />
 
+        <TextBlock Grid.Row="5" Grid.Column="0" Text="QUANTIDADE" FontWeight="Regular" HorizontalAlignment="Right" FontSize="15"  Margin="0,0,15,10" Foreground="#fff"/>
+        <TextBox Grid.Row="5" Grid.Column="1" Width="250" FontSize="16" VerticalAlignment="Center" Background="#fff" HorizontalAlignment="Left" />
 
-        <Button Grid.Row="5" Grid.Column="1" Width="200" Height="50" Margin="0,30,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Background="#008B8B" Foreground="#fff"
-                FontSize="16" FontWeight="Regular" Content="Cadastrar Cliente" Padding="10" BorderBrush="#fff" BorderThickness="1" />
+        <TextBlock Grid.Row="7" Grid.Column="0" Text="VALOR R$" FontWeight="Regular" HorizontalAlignment="Right" FontSize="15"  Margin="0,0,15,10" Foreground="#fff"/>
+        <TextBox Grid.Row="7" Grid.Column="1" Width="250" FontSize="16" VerticalAlignment="Center" Background="#fff" HorizontalAlignment="Left" />
+
+        <Button Grid.Row="9" Grid.Column="1" Width="200" Height="50" Margin="0,30,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Background="#008B8B" Foreground="#fff"
+                FontSize="16" FontWeight="Regular" Content="REGISTRAR" Padding="10" BorderBrush="#fff" BorderThickness="1" />
     </Grid>
     
 </UserControl>

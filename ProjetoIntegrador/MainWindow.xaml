@@ -22,16 +22,16 @@
 
         <StackPanel Grid.Column="0" Grid.Row="1" VerticalAlignment="Center"  >
 
-            <TextBlock Text="CADASTRAR" FontSize="17" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="#fff"/>
+            <TextBlock Text="REGISTRAR" FontSize="17" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="#fff"/>
             <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,0,0,20">
 
 
-                    <Button Content=" Cliente" FontSize="17"  Width="85" Height="50" Margin="10" HorizontalAlignment="Center" Background="#008B8B" Foreground="#fff"
-                 FontWeight="ExtraLight"  Padding="10" BorderBrush="#fff" BorderThickness="1" Click="CadastrarCliente"/>
+                    <Button Content="Venda" FontSize="17"  Width="95" Height="50" Margin="10" HorizontalAlignment="Center" Background="#008B8B" Foreground="#fff"
+                 FontWeight="ExtraLight" Padding="10" BorderBrush="#fff" BorderThickness="1" Click="CadastrarCliente"/>
 
 
 
-                <Button Content="Jogo" HorizontalAlignment="Center" Width="85" Height="50"  Margin="10" Background="#008B8B" Foreground="#fff"
+                <Button Content="Jogo" HorizontalAlignment="Center" Width="80" Height="50"  Margin="10" Background="#008B8B" Foreground="#fff"
                 FontSize="16" FontWeight="ExtraLight"  Padding="10" BorderBrush="#fff" BorderThickness="1"  Click="CadastrarJogo"/>
 
             </StackPanel>

@@ -16,10 +16,10 @@
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
 
-        <TextBlock Grid.Row="0" FontSize="24" FontWeight="ExtraLight" HorizontalAlignment="Center" Margin="0,0,0,20" Foreground="#fff">EDITAR CLIENTE</TextBlock>
+        <TextBlock Grid.Row="0" FontSize="24" FontWeight="Regular" HorizontalAlignment="Center" Margin="0,0,0,20" Foreground="#fff">EDITAR CLIENTE</TextBlock>
 
         <StackPanel Grid.Row="1"  HorizontalAlignment="Center" Margin="0,0,0,10">
-            <TextBlock Width="120" FontSize="16" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="0,0,0,10" Foreground="#fff">CPF Cliente:</TextBlock>
+            <TextBlock Width="120" FontSize="16" VerticalAlignment="Center"  FontWeight="ExtraLight" HorizontalAlignment="Left" Margin="0,0,0,10" Foreground="#fff">CPF Cliente:</TextBlock>
             <TextBox Width="300" HorizontalAlignment="Left" FontSize="16" VerticalAlignment="Bottom" BorderThickness="0,0,0,2"/>
 
         </StackPanel>
@@ -40,6 +40,6 @@
 
         <Button Grid.Row="6"
                 Width="200" Height="50" Margin="0,30,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Background="#008B8B" Foreground="#fff"
-                FontSize="16" FontWeight="ExtraLight" Content="EDITAR" Padding="10" BorderBrush="#fff" BorderThickness="1" />
+                FontSize="16" FontWeight="Regular" Content="EDITAR" Padding="10" BorderBrush="#fff" BorderThickness="1" />
     </Grid>
 </UserControl>
